@@ -46,3 +46,13 @@ input[type=text] {
 fieldset {
   width: 40%;
 }
+body {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.button {
+  width: 60%;
+  color: #0099CC;
+  background: transparent;
+  border-radius: 6px;
+}
