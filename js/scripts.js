@@ -27,3 +27,18 @@ akanMale[3] = "Kwabena"
 akanMale[4] = "Kwaku"
 akanMale[5] = "Yaw"
 akanMale[6] = "Kofi"
+
+function compute(form) {
+  var val1 = parseInt(form.day.value, 10)
+  if ((val1 < 0) || (val1 > 31)) {
+    alert("Day is Invalid")
+  }
+  var val2 = parseInt(form.month.value, 10)
+  if ((val2 < 0) || (val2 > 12)) {
+    alert("Month is invalid")
+  }
+  var val2x = parseInt(form.month.value, 10)
+  var val3 = parseInt(form.year.value, 10)
+  if (val3 < 1900) {
+    alert("You're not that old!")
+  }
