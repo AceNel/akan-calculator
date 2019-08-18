@@ -50,3 +50,10 @@ function compute(form) {
   var val9 = parseInt(val8 / 7, 10)
   var val0 = val8 - (val9 * 7)
   form.result2.value = days[val0]
+  if (document.getElementById('r1').checked) {
+   form.result3.value = akanMale[val0]
+ } else if (document.getElementById('r2').checked) {
+   form.result3.value = akanFemale[val0]
+ }
+
+}
