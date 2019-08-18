@@ -18,3 +18,12 @@ akanFemale[3] = "Abenaa"
 akanFemale[4] = "Akua"
 akanFemale[5] = "Yaa"
 akanFemale[6] = "Afua"
+
+akanMale = new MakeArray(7);
+akanMale[0] = "Kwame"
+akanMale[1] = "Kwasi"
+akanMale[2] = "Kwadwo"
+akanMale[3] = "Kwabena"
+akanMale[4] = "Kwaku"
+akanMale[5] = "Yaw"
+akanMale[6] = "Kofi"
