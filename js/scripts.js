@@ -55,5 +55,4 @@ function compute(form) {
  } else if (document.getElementById('r2').checked) {
    form.result3.value = akanFemale[val0]
  }
-
 }
